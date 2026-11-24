@@ -1,0 +1,36 @@
+% ---------------------------------------------------------------
+% preamble.tex  (RICOSTRUITO: il file originale non era stato caricato)
+% Se hai già un tuo preamble.tex, usa quello: contiene solo gli
+% ambienti e le macro necessari ai file .tex (vedi sotto).
+% ---------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs,yhmath}
+\usepackage{centernot}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,decorations.markings,positioning,shapes.geometric}
+\usepackage{tikz-cd}
+\usepackage{caption,subcaption}
+\usepackage{hyperref}
+
+\newcommand{\Func}[5]{\[ #1\colon #2 \longrightarrow #3,\qquad #4 \longmapsto #5 \]}
+\providecommand{\widearc}[1]{\wideparen{#1}}
+
+
+\theoremstyle{plain}
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{prop}[teo]{Proposizione}
+\newtheorem{lema}[teo]{Lemma}
+\newtheorem{coro}[teo]{Corollario}
+\theoremstyle{definition}
+\newtheorem{definicion}[teo]{Definizione}
+\newtheorem{ejemplo}[teo]{Esempio}
+\newtheorem*{ejercicio*}{Esercizio}
+\theoremstyle{remark}
+\newtheorem{observacion}[teo]{Osservazione}
+\newtheorem{notacion}[teo]{Nota}
+\newtheorem*{intuizione}{Intuizione}

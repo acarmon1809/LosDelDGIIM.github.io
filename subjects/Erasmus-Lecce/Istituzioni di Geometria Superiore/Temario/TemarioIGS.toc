@@ -1,0 +1,67 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Il Gruppo Fondamentale di Poincar\'e}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Cammino}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Prodotto Stellato}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Omotopia di Funzioni}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Omotopia e deformazioni su $S^n$}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Omotopia e campi di vettori tangenti su $S^n$}{9}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Spazi omotopicamente equivalenti}{12}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Retratti e Retratti di Deformazione}{16}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Spazi Contraibili}{20}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Gruppo Fondamentale e Omotopia di Cammini}{23}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Ruolo del Punto Base e Invarianza del Gruppo Fondamentale}{29}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Invarianza Topologica del Gruppo Fondamentale}{31}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Invarianza Omotopica del Gruppo Fondamentale}{33}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Il Gruppo Fondamentale dello Spazio Prodotto}{35}{section.1.13}%
+\contentsline {section}{\numberline {1.14}Il Toro $n$-Dimensionale}{37}{section.1.14}%
+\contentsline {section}{\numberline {1.15}Spazi Semplicemente Connessi}{39}{section.1.15}%
+\contentsline {section}{\numberline {1.16}Esempio di Spazio Topologico con Gruppo Fondamentale Non Abeliano}{41}{section.1.16}%
+\contentsline {section}{\numberline {1.17}Struttura del Gruppo Libero Generato da un Insieme Finito}{41}{section.1.17}%
+\contentsline {section}{\numberline {1.18}Proprietà del Prodotto Libero di Gruppi}{42}{section.1.18}%
+\contentsline {section}{\numberline {1.19}Illustrazione Intuitiva del Gruppo Fondamentale}{43}{section.1.19}%
+\contentsline {section}{\numberline {1.20}Teoremi di Seifert-Van Kampen}{44}{section.1.20}%
+\contentsline {section}{\numberline {1.21}Applicazioni ed Esempi del Gruppo Fondamentale}{47}{section.1.21}%
+\contentsline {section}{\numberline {1.22}Gruppo Fondamentale del Toro Privato di un Punto}{49}{section.1.22}%
+\contentsline {chapter}{\numberline {2}Rivestimenti e spazi proiettivi}{51}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Spazi di Rivestimento (Rivestimenti)}{51}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Esempi di Spazi di Rivestimento}{53}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Lo Spazio Proiettivo Reale e il suo Rivestimento tramite $S^n$}{55}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Proprietà dello Spazio Proiettivo Reale $\mathbb {R}P^n$}{56}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Esempi Notevoli di Spazi Proiettivi Reali}{57}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Modelli topologici di $\mathbb {R}P^n$}{59}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Dimostrazione: $(S^n, p)$ \`e un rivestimento di $\mathbb {R}P^n$}{59}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Altri esempi di rivestimenti e sollevamenti}{61}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Sollevamenti}{62}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Sollevamento di cammini e di omotopie}{63}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Rivestimenti e gruppo fondamentale}{65}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Applicazioni di $\Pi _1(S^1)$}{68}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Rivestimenti definiti da gruppi propriamente discontinui}{70}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Gruppo fondamentale di un quoziente}{72}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Algoritmo per il calcolo di $\Pi _1$}{73}{section.2.15}%
+\contentsline {chapter}{\numberline {3}I gruppi di omologia simpliciale}{77}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Simplessi}{77}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Terminologia e notazioni}{80}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Il baricentro di un simplesso}{82}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Complessi simpliciali}{83}{section.3.2}%
+\contentsline {section}{\numberline {3.3}La suddivisione baricentrica}{87}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Propriet\`a topologiche dei complessi simpliciali}{89}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Coordinate baricentriche di un complesso}{91}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Richiami sui gruppi abeliani}{93}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Commutatore e abelianizzato}{95}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}Simplessi orientati}{95}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Il gruppo delle $p$-catene}{96}{section.3.8}%
+\contentsline {section}{\numberline {3.9}L'operatore bordo}{97}{section.3.9}%
+\contentsline {section}{\numberline {3.10}I gruppi di omologia simpliciale}{99}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Componenti connesse di $|K|$}{100}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Omologia $0$-dimensionale}{103}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Invarianza topologica dei gruppi di omologia simpliciale}{104}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Spazi triangolabili}{105}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Relazione tra $\Pi _1$ e $H_1$}{107}{section.3.15}%
+\contentsline {section}{\numberline {3.16}Calcolo dei gruppi di omologia: esempi}{108}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}1) La circonferenza $X = S^1$}{108}{subsection.3.16.1}%
+\contentsline {subsection}{\numberline {3.16.2}2) Il disco $X = B^2$}{109}{subsection.3.16.2}%
+\contentsline {subsection}{\numberline {3.16.3}3) La sfera $X = S^2$}{109}{subsection.3.16.3}%
+\contentsline {subsection}{\numberline {3.16.4}4) Il piano proiettivo $X = \mathbb {R}P^2$}{110}{subsection.3.16.4}%
+\contentsline {section}{\numberline {3.17}La caratteristica di Eulero--Poincar\'e}{111}{section.3.17}%
+\contentsline {section}{\numberline {3.18}La formula di Eulero per i poliedri}{114}{section.3.18}%

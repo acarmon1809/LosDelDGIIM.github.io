@@ -1,0 +1,112 @@
+\documentclass[12pt]{book}
+
+% Preámbulo oficial del repositorio
+\input{../../../_assets/preambulo}
+
+% Idioma italiano y paquetes adicionales
+\usepackage{yhmath}
+\usepackage{centernot}
+\newcommand{\widearc}[1]{\wideparen{#1}}
+
+% Limpieza completa de contadores y entornos de preambulo.tex para ponerlos en italiano
+\makeatletter
+\let\c@teo\relax \let\teo\relax \let\endteo\relax
+\let\c@definicion\relax \let\definicion\relax \let\enddefinicion\relax
+\let\c@ejercicio\relax \let\ejercicio\relax \let\endejercicio\relax
+\expandafter\let\csname ejercicio*\endcsname\relax
+\expandafter\let\csname endejercicio*\endcsname\relax
+\let\c@coro\relax \let\coro\relax \let\endcoro\relax
+\let\c@prop\relax \let\prop\relax \let\endprop\relax
+\let\c@lema\relax \let\lema\relax \let\endlema\relax
+\let\c@observacion\relax \let\observacion\relax \let\endobservacion\relax
+\let\c@notacion\relax \let\notacion\relax \let\endnotacion\relax
+\let\c@ejemplo\relax \let\ejemplo\relax \let\endejemplo\relax
+\makeatother
+
+\theoremstyle{plain}
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{prop}[teo]{Proposizione}
+\newtheorem{lema}[teo]{Lemma}
+\newtheorem{coro}[teo]{Corollario}
+
+\theoremstyle{definition}
+\newtheorem{definicion}[teo]{Definizione}
+\newtheorem{ejemplo}[teo]{Esempio}
+\newtheorem{ejercicio}[teo]{Esercizio}
+\newtheorem*{ejercicio*}{Esercizio}
+
+\theoremstyle{remark}
+\newtheorem{observacion}[teo]{Osservazione}
+\newtheorem{notacion}[teo]{Nota}
+\newtheorem*{intuizione}{Intuizione}
+
+\newenvironment{soluzione}{\begin{proof}[Soluzione]}{\end{proof}}
+
+\begin{document}
+
+    \selectlanguage{italian}
+    \input{../../../_assets/portada}
+
+    % Versión en italiano de \portadaFotoDif
+    \renewcommand{\portadaFotoDif}[8]{%
+        \thispagestyle{empty}
+        \newgeometry{margin=0cm}
+        \fancyhead[L]{\helv #3}
+        \fancyhead[R]{\helv \nouppercase{\leftmark}}
+        \pagecolor{#4}
+        \begin{tikzpicture}[remember picture, overlay]
+            % Imagen centrada cubriendo todo el alto del A4 sin deformarse
+            \node[anchor=center, opacity=0.3] at (current page.center) {
+                \includegraphics[height=\paperheight]{#1}
+            };
+            % Título grande arriba a la izquierda (independiente de la imagen)
+            \node[anchor=north west, text=white, opacity=1, font=\fontsize{52}{68}\selectfont\bfseries\sffamily, align=left] 
+                at ([xshift=2.2cm, yshift=-3cm]current page.north west) {#2};
+            % Textos abajo a la derecha
+            \node[anchor=south east, text=white, opacity=1, font=\fontsize{12}{18}\selectfont\sffamily, align=right] 
+                at ([xshift=-1.8cm, yshift=3.2cm]current page.south east) {\href{https://losdeldgiim.github.io/}{\textbf{Los Del DGIIM}, \texttt{\footnotesize losdeldgiim.github.io}}};
+            \node[anchor=south east, text=white, opacity=1, font=\fontsize{12}{15}\selectfont\sffamily, align=right] 
+                at ([xshift=-1.8cm, yshift=1.8cm]current page.south east) {Doble Grado en Ingeniería Informática y Matemáticas\\Universidad de Granada};
+        \end{tikzpicture}
+        \null\newpage
+        \restoregeometry
+        \nopagecolor
+
+        \newpage
+        \thispagestyle{empty}
+        \begin{tikzpicture}[remember picture, overlay]
+            \node[anchor=south west, inner sep=3cm] at (current page.south west) {
+                \begin{minipage}{0.5\paperwidth}
+                    Quest'opera è distribuita con
+                    \href{https://creativecommons.org/licenses/by-nc-nd/4.0/}{
+                        Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0).
+                    }\\
+
+                    Sei libero di condividere e ridistribuire il contenuto di quest'opera con qualsiasi mezzo o formato, a condizione di riconoscere la paternità agli autori originali e di non utilizzarla per fini commerciali.
+                \end{minipage}
+            };
+        \end{tikzpicture}
+
+        \pretitle{\begin{center}\bfseries\fontsize{42}{56}\selectfont}
+        \posttitle{\par\end{center}\vspace{2em}}
+        \preauthor{\begin{center}\Large}
+        \postauthor{\par\end{center}\vfill}
+        \predate{\begin{center}\huge}
+        \postdate{\par\end{center}\vspace{2em}}
+
+        \title{#2}
+        \author{\href{https://losdeldgiim.github.io/}{Los Del DGIIM, \texttt{\large losdeldgiim.github.io}}
+        \\ \vspace{0.5cm}#8}
+        \date{Lecce, #7}
+        \maketitle
+
+        \tableofcontents
+    }
+
+    \portadaFotoDif{../../unisalento.jpg}{Istituzioni di\\Geometria\\Superiore}{Istituzioni di Geometria Superiore}{MidnightBlue}{-8}{28}{2026/27}{Ángel Caro Montalbán}
+
+    \include{section1}
+    \include{capitulo2}
+    \include{capitolo3}
+
+\end{document}
